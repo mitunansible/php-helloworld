@@ -1,0 +1,9 @@
+---
+applications:
+- name: php-helloworld
+  memory: 128M
+  instances: 1
+  path: .
+  buildpack: php_buildpack
+  services:
+  - zippy
